@@ -918,8 +918,13 @@ Please check [0-6-stable] for previous changes.
 [#8167]: https://github.com/activeadmin/activeadmin/pull/8167
 [#8310]: https://github.com/activeadmin/activeadmin/pull/8310
 [#8311]: https://github.com/activeadmin/activeadmin/pull/8311
+<<<<<<< HEAD
 [#8329]: https://github.com/activeadmin/activeadmin/pull/8329
 [#8349]: https://github.com/activeadmin/activeadmin/pull/8349
+||||||| cce08cb6 (Update vendored jquery-ui from 1.12.1 to 1.13.3 (#8329))
+[#8329]: https://github.com/activeadmin/activeadmin/pull/8329
+=======
+>>>>>>> parent of cce08cb6 (Update vendored jquery-ui from 1.12.1 to 1.13.3 (#8329))
 
 [@1000ship]: https://github.com/1000ship
 [@5t111111]: https://github.com/5t111111

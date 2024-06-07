@@ -1,8 +1,6 @@
 //= require jquery-ui/version
 
 ( function( factory ) {
-	"use strict";
-
 	if ( typeof define === "function" && define.amd ) {
 
 		// AMD. Register as an anonymous module.
@@ -12,8 +10,7 @@
 		// Browser globals
 		factory( jQuery );
 	}
-} )( function( $ ) {
-"use strict";
+} ( function( $ ) {
 
 // $.ui.plugin is deprecated. Use $.widget() extensions instead.
 return $.ui.plugin = {
@@ -46,4 +43,4 @@ return $.ui.plugin = {
 	}
 };
 
-} );
+} ) );

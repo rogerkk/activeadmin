@@ -1,22 +1,20 @@
 //= require jquery-ui/version
 
 /*!
- * jQuery UI Unique ID 1.13.3
- * https://jqueryui.com
+ * jQuery UI Unique ID 1.12.1
+ * http://jqueryui.com
  *
- * Copyright OpenJS Foundation and other contributors
+ * Copyright jQuery Foundation and other contributors
  * Released under the MIT license.
- * https://jquery.org/license
+ * http://jquery.org/license
  */
 
 //>>label: uniqueId
 //>>group: Core
 //>>description: Functions to generate and remove uniqueId's
-//>>docs: https://api.jqueryui.com/uniqueId/
+//>>docs: http://api.jqueryui.com/uniqueId/
 
 ( function( factory ) {
-	"use strict";
-
 	if ( typeof define === "function" && define.amd ) {
 
 		// AMD. Register as an anonymous module.
@@ -26,8 +24,7 @@
 		// Browser globals
 		factory( jQuery );
 	}
-} )( function( $ ) {
-"use strict";
+} ( function( $ ) {
 
 return $.fn.extend( {
 	uniqueId: ( function() {
@@ -51,4 +48,4 @@ return $.fn.extend( {
 	}
 } );
 
-} );
+} ) );
